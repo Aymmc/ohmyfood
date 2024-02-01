@@ -170,7 +170,9 @@ header {
     display: none;
 }
 
-
+.card img {
+    object-fit: cover;
+}
 
 
 
