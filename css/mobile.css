@@ -19,9 +19,7 @@
     flex-direction: column;
     gap : unset;
 }
-.icone{
-    
-}
+
 .restaurants {
     display: flex;
     flex-direction: column;
@@ -43,5 +41,30 @@ height: 100%;
     display: unset;
    
 }
-/* --------------------------Fonctionnement--------------------------------- */
+/* --------------------------footer--------------------------------- */
+.logofooter{
+    padding: 22px 0px 16px 0px;
+}
+.footerdiv{
+    padding-left: 25px;
+    display: unset;
+}
+footer ul li {
+    margin-bottom: 7px;
+}
+
+footer {
+    padding-bottom: 11px;
+    padding-left: 25px;
+}
+footer ul {
+    display: unset;
+    margin-right: 0px;
+}
+.bloc1 , .bloc2{
+    display: unset;
+}
+.bloc1{
+    margin-right: 0px;
+}
 }

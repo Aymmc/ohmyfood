@@ -24,11 +24,15 @@ h1 {
     font-weight: 700;
     line-height: normal;
 }
+ul{
+    list-style-type: none;
+}
 
 :root {
     --Grey-2: #EAEAEA;
     --Background: #F6F6F6;
     --Button-Gradient: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+    --Grey: #353535;
 }
 
 /* --------------------------------------------------------------Header------------------------------------- */
@@ -83,15 +87,21 @@ header {
     line-height: normal;
     padding: 0px 0px 26px 0px;
 }
-.explorer button {
+.explorerbutton {
     width: 218px;
     height: 50px;
     border-radius: 25px;
     background: var(--Button-Gradient);
-    border: none ;
+    border: none;
     color: white;
+    cursor: pointer;
+    transition: background 0.5s ease, box-shadow 0.5s ease; /* Ajoutez une transition pour background et box-shadow */
 }
 
+.explorerbutton:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(201deg, #9356DC -5.2%, #FF79DA 110.74%);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+}
 /* --------------------------Fonctionnement--------------------------------- */
 .icone{
     font-size: 16px;
@@ -134,6 +144,18 @@ header {
     gap: 36px;
     display: flex;
 }
+.svgcoeur {
+    cursor: pointer;
+  }
+  
+  #colorToggle:checked + .svgcoeur svg {
+    fill: #FF79DA; /* Change the fill color as needed */
+  }
+  
+  #colorToggle:disabled + .svgcoeur svg {
+    opacity: 0.5; /* Dim the color when disabled, adjust as needed */
+    cursor: not-allowed;
+  }
 /* --------------------------Restaurants--------------------------------- */
 .restaurants{
     background: var(--Background);
@@ -169,6 +191,11 @@ padding: 16px 0px 5px 13px;
 .card p {
     padding: 0px 0px 13px 12px;
 }
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .restaurants_cards{
     display: flex;
     justify-content: space-around;
@@ -177,4 +204,42 @@ padding: 16px 0px 5px 13px;
 .restaurants a {
     padding-bottom: 50px;
 
+}
+.card-coeur{
+    margin-right: 30px;
+}
+/* -----------------------------footer--------------------------- */
+footer{
+    background: var(--Grey);
+}
+footer ul li {
+    color: var(--White, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-right: 7px;
+}
+footer ul {
+    display: flex;
+    margin-right: 50px;
+    
+}
+ul li img {
+    padding-right: 11px;
+}
+.footerdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 80px;
+    padding-bottom:30px;
+
+}
+.bloc1 , .bloc2 {
+    display: flex;
+}
+.bloc1{
+    margin-right: 50px;
 }
