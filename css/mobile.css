@@ -94,4 +94,13 @@ footer ul {
     width: unset!important;
     height: unset!important;
 }
+.nouveau {
+    width: 80px!important;
+height: 29px!important;
+border-radius: unset!important;
+position: absolute;
+left: 249px;
+/* bottom: 50px; */
+top: 18px;
+}
 }
