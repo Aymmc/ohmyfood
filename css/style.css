@@ -170,17 +170,14 @@ header {
     display: none;
 }
 
+.buttoncaché:checked + .svgcoeur svg path {
+    fill: white; 
+    stroke: black; 
+    stroke-width: 0.5; 
+  }
 .card img {
     object-fit: cover;
 }
-
-
-
-.buttoncaché:checked+.svgcoeur svg path {
-    /* fill: linear-gradient(#9356DC, #FF79DA); */
-    fill: #FF79DA;
-}
-
 /* --------------------------Restaurants--------------------------------- */
 .restaurants {
     background: var(--Background);
