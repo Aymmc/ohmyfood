@@ -67,4 +67,31 @@ footer ul {
 .bloc1{
     margin-right: 0px;
 }
+
+/* --------------------------La palette du goût--------------------------------- */
+.imagerestaurant{
+    height: 275px;
+}
+.sectionrestaurant{
+    width: 100%!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerrestaurant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;  
+    margin-bottom: 22px;
+}
+.contenuerestaurant{
+    margin: 0px 15px;
+  
+}
+
+.divplat {
+    width: unset!important;
+    height: unset!important;
+}
 }
