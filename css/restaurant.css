@@ -75,7 +75,11 @@
 .titreplat {
     padding-bottom: 5px;
 }
-
+.descplat {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 .divplat {
     border-radius: 15.043px;
     background: var(--White, #FFF);
@@ -87,11 +91,40 @@
     margin-bottom: 12px;
     width: 634px;   
     transition: background-color 0.3s ;
+    position: relative;
 
 }
-.divplat:active {
+/* .divplat:hover {
     background-color: #2980b9;
-}
+} */
+
+
+  /* Styles pour l'état initial */
+  .prixplat::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width:  0;
+    height: 100%;
+    background-color: #99E2D0; 
+    transition: all 0.5s ease;
+    /* display: none; */
+    border-radius: 0px 15.043px 15.043px 0px;
+  }
+
+
+.prixplat:hover::before {
+    left: 600px;
+    width:  10%;
+    
+    transition: all 0.5s ease;
+
+  }
+
+  .divplat:hover .prixplat p {
+    transform: translateX(-50px); /* Décaler le prix vers la droite */
+  }
 
 .contenuerestaurant h3 {
     padding-bottom: 10px;
