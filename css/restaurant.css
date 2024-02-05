@@ -123,9 +123,9 @@
   .divplat:hover .prixplat p {
     transform: translateX(-50px); 
   } */
-.check{
+ .check{
     right: -59px;
-    /* display: none; */
+
       position: absolute;
     bottom: -6px;
     display: none;
@@ -135,7 +135,7 @@
     text-overflow: ellipsis;
     width: 280px;
 }
-.titreplat {
+.titreplat h4 {
     text-overflow: ellipsis;
     max-width: 100% ;
 }
@@ -161,11 +161,11 @@
     overflow: hidden;
 }
 
-
+/*
 .divplat:hover .desc{
     width: 234px!important;
     transition: all 0.5s ease; 
-}
+} */
 /* .desc:hover{
     width: 234px!important;
 }

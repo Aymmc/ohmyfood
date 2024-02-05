@@ -138,18 +138,17 @@ header {
 .icone {
     font-size: 16px;
     /* gap: 19px; */
-    padding: 4px 19px;
-    /* padding: 0px 0px 0px 0px; */
+
     border-radius: 20px;
     background: var(--Background);
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-    width: 253.486px;
+    width: 322.486px;
     height: 72.379px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 0px 29px 0px;
+
     position: relative;
 }
 
@@ -175,16 +174,25 @@ line-height: normal;
     align-items: center;
 }
 
-.fonctionnement {
+.fonctionnement , .restaurants {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
 
+    padding: 50px 180px;
+}
 .fonctionnement h2 {
-    padding: 48px 0px 26px 0px;
-}
+    padding: 0px 0px 26px 0px;
+    color: #000;
 
+/* Section Title */
+
+}
+h2{
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;}
 .filtres {
     gap: 36px;
     display: flex;
@@ -211,7 +219,7 @@ line-height: normal;
 }
 
 .restaurants h2 {
-    padding: 52px 0px 38px 0px;
+    padding-bottom: 28px;
 }
 
 .restaurants_cards .card {
@@ -269,14 +277,10 @@ top: 18px;
 
 .restaurants_cards {
     display: flex;
-    justify-content: space-around;
+    gap: 80px;
     flex-wrap: wrap;
 }
 
-.restaurants a {
-    padding-bottom: 50px;
-
-}
 
 .card-coeur {
     margin-right: 30px;
@@ -324,5 +328,7 @@ ul li img {
 .bloc1 {
     margin-right: 50px;
 }
-
+.logofooter img {
+    margin-bottom: -8px;
+}
 /* --------------------------La palette du goût--------------------------------- */
