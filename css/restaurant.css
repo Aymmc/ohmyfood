@@ -75,11 +75,14 @@
 .titreplat {
     padding-bottom: 5px;
 }
-.descplat {
+.descplat , .titreplat {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-  }
+    max-width: 100%;
+    transition: max-width 0.5s ease; 
+    
+}
 .divplat {
     border-radius: 15.043px;
     background: var(--White, #FFF);
@@ -94,13 +97,8 @@
     position: relative;
 
 }
-/* .divplat:hover {
-    background-color: #2980b9;
-} */
 
-
-  /* Styles pour l'état initial */
-  .prixplat::before {
+  /* .prixplat::before {
     content: '';
     position: absolute;
     top: 0;
@@ -109,7 +107,7 @@
     height: 100%;
     background-color: #99E2D0; 
     transition: all 0.5s ease;
-    /* display: none; */
+
     border-radius: 0px 15.043px 15.043px 0px;
   }
 
@@ -123,8 +121,72 @@
   }
 
   .divplat:hover .prixplat p {
-    transform: translateX(-50px); /* Décaler le prix vers la droite */
-  }
+    transform: translateX(-50px); 
+  } */
+.check{
+    right: -59px;
+    /* display: none; */
+      position: absolute;
+    bottom: -6px;
+    display: none;
+
+}
+.desc {
+    text-overflow: ellipsis;
+    width: 280px;
+}
+.titreplat {
+    text-overflow: ellipsis;
+    max-width: 100% ;
+}
+.prixplat:hover .check{
+    margin-right: 50px;
+    transition: all 0.5s ease;
+    display: block;
+}
+.prixplat:hover .prix{
+    margin-right: 50px;
+    transition: all 0.5s ease;
+}
+.prixplat:hover .plat {
+    max-width: 80%;
+}
+.prixplat:hover .desc {
+    width: 234px!important;
+}
+.prixplat .prix{
+    transition: all 0.5s ease; 
+}
+.plat p {
+    overflow: hidden;
+}
+
+
+.divplat:hover .desc{
+    width: 234px!important;
+    transition: all 0.5s ease; 
+}
+/* .desc:hover{
+    width: 234px!important;
+}
+.desc:hover .check{
+    margin-right: 50px;
+    transition: all 0.5s ease;
+    display: block;
+}
+.desc:hover .prix{
+    margin-right: 50px;
+    transition: all 0.5s ease;
+}
+.desc:hover .plat{
+    max-width: 80%;
+} */
+
+.plat{
+    
+    max-width: 100%;    
+}
+
 
 .contenuerestaurant h3 {
     padding-bottom: 10px;

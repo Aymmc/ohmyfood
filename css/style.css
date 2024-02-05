@@ -160,6 +160,13 @@ header {
 
 .icone p {
     gap: 19px;
+    color: #000;
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .sousicone {

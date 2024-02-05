@@ -91,7 +91,8 @@ footer ul {
 }
 
 .divplat {
-    width: unset!important;
+    /* width: unset!important; */
+    width: 315px!important;
     height: unset!important;
 }
 .nouveau {
@@ -104,15 +105,15 @@ left: 249px;
 top: 18px;
 }
 
-.prixplat::before {
+/* .prixplat::before {
     left: 336px !important;
     width: 12% !important;
     width: 0%!important ;
   }
 
-  /* Styles pour l'état survolé sur les petits écrans */
+
   .prixplat:hover::before {
     left: 293px !important;
     width: 12%!important;
-  }
+  } */
 }
