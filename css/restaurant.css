@@ -39,7 +39,6 @@
 }
 
 .sectionrestaurant h4 {
-    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -56,7 +55,6 @@
 }
 
 .sectionrestaurant p {
-    font-family: Roboto;
     font-size: 15.043px;
     font-style: normal;
     font-weight: 300;
@@ -193,7 +191,6 @@
     margin-bottom: 12px;
     border-bottom: 3px #99E2D0 solid;
     width: 40px;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;

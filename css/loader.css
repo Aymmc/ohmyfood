@@ -6,7 +6,6 @@
   height: 100vh;
   inset: 0;
   z-index: 5;
-  opacity: 0.8;
   animation: chargement 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
