@@ -36,6 +36,7 @@ ul {
 .loader-container{
     animation-name: animationdepartverslehaut, fadeInOpacity;
     animation-duration: 0.5s;
+    animation-delay: 3s;
 }
 @keyframes animationdepartverslehaut {
     0% {
