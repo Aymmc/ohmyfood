@@ -1,0 +1,67 @@
+@media (min-width: 768.98px) {
+    .filtres {
+        display: flex;
+        flex-direction: row!important;
+        gap: 36px;
+    }
+    .fonctionnement h2 {
+        padding: 0px 0px 26px 0px;
+        color: #000;
+    }
+    .restaurants_cards {
+        display: flex;
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+    .restaurants_cards .card {
+        width: 490px!important;
+        flex-shrink: 0;
+    }
+    .titre , .paragraphe {
+        width: 100%!important;
+    }
+    .restaurants , .fonctionnement {
+
+        align-items: flex-start!important;
+
+    }
+    .nouveau {
+        left: 400px!important;
+ 
+    }
+    .sectionrestaurant{
+        width: 1040px!important;
+    }
+    .sectionrestaurant{
+        width: 1040px!important;
+
+    }
+    .divplat {
+
+        width: 634px!important;  
+    
+    }
+    .divplat:hover .desc{
+        width: 100%!important;
+        transition: all 0.5s ease; 
+    }
+    .footerdiv{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 29px;    }
+    .bloc1 , .bloc2{
+        display: flex;
+    margin-right: 30px;
+    }
+    .bloc1 li , .bloc2 li{
+        margin-right: 30px;
+        
+    }
+    .bloc1 li img , .bloc2 li img{
+        margin-right: 5px;
+        
+    }
+
+}

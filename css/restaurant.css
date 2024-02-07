@@ -4,6 +4,20 @@
     cursor: pointer;
     
 }
+.svgcoeur {
+    cursor: pointer;
+}
+
+.buttoncaché {
+    display: none;
+}
+
+.buttoncaché:checked + .svgcoeur svg path {
+    fill: white; 
+    stroke: black; 
+    stroke-width: 0.5; 
+  }
+
 .buttonretour{
     margin-bottom: -35px;
     margin-left: 20px;
@@ -23,7 +37,7 @@
     position: relative;
     background-color: var(--Background);
     border-radius: 20px 20px 0px 0px;
-    width: 1040px;
+
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -90,37 +104,12 @@
     align-items: flex-end;
     padding: 10px 15px;
     margin-bottom: 12px;
-    width: 634px;   
+    width: 315px; 
     transition: background-color 0.3s ;
     position: relative;
 
 }
 
-  /* .prixplat::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width:  0;
-    height: 100%;
-    background-color: #99E2D0; 
-    transition: all 0.5s ease;
-
-    border-radius: 0px 15.043px 15.043px 0px;
-  }
-
-
-.prixplat:hover::before {
-    left: 600px;
-    width:  10%;
-    
-    transition: all 0.5s ease;
-
-  }
-
-  .divplat:hover .prixplat p {
-    transform: translateX(-50px); 
-  } */
  .check{
     right: -59px;
 
@@ -159,26 +148,6 @@
     overflow: hidden;
 }
 
-/*
-.divplat:hover .desc{
-    width: 234px!important;
-    transition: all 0.5s ease; 
-} */
-/* .desc:hover{
-    width: 234px!important;
-}
-.desc:hover .check{
-    margin-right: 50px;
-    transition: all 0.5s ease;
-    display: block;
-}
-.desc:hover .prix{
-    margin-right: 50px;
-    transition: all 0.5s ease;
-}
-.desc:hover .plat{
-    max-width: 80%;
-} */
 
 .plat{
     
