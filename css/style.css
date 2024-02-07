@@ -282,8 +282,33 @@ top: 18px;
 
 .card-coeur {
     margin-right: 30px;
+  
+}
+.logo-anim path {
+    fill: rgb(255, 255, 255);
+    stroke: black;
+    fill-opacity: 0;
 }
 
+.logo-anim path:hover{
+    stroke: rgb(255, 255, 255);
+    fill-opacity: 1;
+    animation-name: fill-anim;
+    animation-duration: 1s;
+    fill: url(#paint0_linear_0_1);
+}
+
+
+ @keyframes fill-anim {
+    0% {
+        fill-opacity: 0;
+
+    }
+    100% {
+        fill-opacity: 1;
+
+    }
+} 
 /* -----------------------------footer--------------------------- */
 footer {
     background: var(--Grey);
