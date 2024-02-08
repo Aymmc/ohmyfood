@@ -66,6 +66,11 @@
         --Button-Gradient: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
         --Grey: #353535;
     }
+    .loader-container{
+        animation-name: animationdepartverslehaut, fadeInOpacity;
+        animation-duration: 0.5s;
+        animation-delay: 3s;
+    }
 /* ----------------------------------------------HEADER-------------------------------------- */
 
 .logo {
