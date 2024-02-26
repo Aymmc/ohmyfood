@@ -76,7 +76,9 @@
 
     text-overflow: ellipsis;
 }
-
+.plat h4{
+    overflow: hidden;
+}
 .divrestaurant {
     display: flex;
     flex-direction: column;
