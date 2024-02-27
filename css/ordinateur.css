@@ -1,4 +1,4 @@
-@media (min-width: 768.98px) {
+@media (min-width: 1024px) {
     .filtres {
         display: flex;
         flex-direction: row!important;
@@ -9,12 +9,14 @@
         color: #000;
     }
     .restaurants_cards {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 80px;
         flex-wrap: wrap;
+        width: 100%;
     }
     .restaurants_cards .card {
-        width: 490px!important;
+        width: 100%!important;
         flex-shrink: 0;
     }
     .titre , .paragraphe {
@@ -26,7 +28,10 @@
 
     }
     .nouveau {
-        left: 400px!important;
+        left: 26.519vw!important;
+        width: unset!important;
+        bottom: unset!important;
+  
  
     }
     .sectionrestaurant{
@@ -63,5 +68,16 @@
         margin-right: 5px;
         
     }
+    .icone {
+            width: 23vw!important;
+    }
+    /* .sousicone{
+        gap: 8px!important;
+    } */
 
+}
+@media (min-width: 1439px) {
+  .icone{
+    width: 331.2px!important;
+  }
 }
