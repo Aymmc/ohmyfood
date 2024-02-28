@@ -107,7 +107,8 @@
     padding: 10px 15px;
     margin-bottom: 12px;
     /* max-width: 275px; */
-    width: 315px; 
+    /* width: 315px;  */
+    width: 84vw;
     transition: background-color 0.3s ;
     position: relative;
 
@@ -128,6 +129,10 @@
 .titreplat h4 {
     text-overflow: ellipsis;
     max-width: 100% ;
+}
+.divplat:hover .desc{
+    width: 220px;
+    transition: all 0.5s ease; 
 }
 .prixplat:hover .check{
     margin-right: 50px;
@@ -207,4 +212,11 @@
 }
 .divplat:focus {
     background-color: #2980b9;
+}
+
+@media (min-width: 400px) {
+
+.divplat:hover .desc{
+    width: 265px!important;
+}
 }
