@@ -130,7 +130,7 @@
     text-overflow: ellipsis;
     max-width: 100% ;
 }
-.divplat:hover .desc{
+.prixplat:hover .desc{
     width: 220px;
     transition: all 0.5s ease; 
 }
@@ -216,7 +216,7 @@
 
 @media (min-width: 400px) {
 
-.divplat:hover .desc{
+.prixplat:hover .desc{
     width: 265px!important;
 }
 }
