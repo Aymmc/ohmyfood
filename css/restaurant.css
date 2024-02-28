@@ -123,7 +123,7 @@
 }
 .desc {
     text-overflow: ellipsis;
-    width: 280px;
+    /* width: 280px; */
 }
 .titreplat h4 {
     text-overflow: ellipsis;
