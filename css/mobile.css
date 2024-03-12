@@ -339,8 +339,11 @@ footer ul {
 
     margin-right: 0px;
 }
-.bloc1 , .bloc2{
-
+.bloc1{
+    font-weight: 500;
+}
+.bloc2{
+    font-weight: 400;
 }
 
 
