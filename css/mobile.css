@@ -121,6 +121,15 @@ header {
 .titre h1 {
     padding: 0px 0px 18px 0px;
 }
+.buttoncaché {
+    display: none;
+}
+
+.buttoncaché:checked + .svgcoeur svg path {
+    fill: white; 
+    stroke: black; 
+    stroke-width: 0.5; 
+  }
 
 /* ----------------------------------------------Reserver-------------------------------------- */
 .nouveaup {
